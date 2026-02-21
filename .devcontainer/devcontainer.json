@@ -23,7 +23,6 @@
     }
   },
   "postCreateCommand": "npm install",
-  "postStartCommand": "npm start",
   "portsAttributes": {
     "3000": {
       "label": "Application",
