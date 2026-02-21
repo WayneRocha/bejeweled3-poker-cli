@@ -1,0 +1,39 @@
+{
+  "name": "bejeweled-poker-cli",
+  "version": "0.1.0",
+  "description": "CLI interativo com comando bej-poker que calcula quantas mãos de poker seriam necessárias para atingir uma pontuação alvo, inspirado em Bejeweled 3 (Poker em Quests).",
+  "type": "module",
+  "author": "Wayne Rocha <dev.waynerocha@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayneRocha/bejeweled3-poker-cli.git"
+  },
+  "homepage": "https://github.com/WayneRocha/bejeweled3-poker-cli#readme",
+  "bin": {
+    "bej-poker": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js"
+  },
+  "keywords": [
+    "cli",
+    "terminal",
+    "bejeweled",
+    "poker",
+    "interactive",
+    "bejeweled-poker",
+    "bejeweled-3"
+  ],
+  "dependencies": {
+    "inquirer": "^12.11.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ]
+}
