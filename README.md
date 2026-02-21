@@ -26,19 +26,35 @@ npm install
 npm start
 ```
 
-## Como usar como comando global `nnn` (opcional)
+### No GitHub Codespaces
 
-Se quiser registrar o comando globalmente (para usar `nnn` de qualquer pasta):
+1. Abra o repositório no GitHub
+2. Clique em **Code** → **Codespaces** → **Create codespace on main**
+3. Aguarde o container inicializar
+
+## Como usar como comando global (opcional)
+
+Se quiser registrar o comando globalmente:
 
 ```bash
 npm link
-nnn
+bej-poker
 ```
 
 **Nota**: Sem `npm link`, use apenas `npm start` na pasta do projeto.
 
-## Estrutura
+## 📁 Estrutura
 
-- `package.json`: define o binário `nnn` e dependências
-- `src/cli.js`: jogo completo com inquirer
-- `.gitignore`: ignora `node_modules/`
+- `.devcontainer/devcontainer.json`: Configuração do Codespaces
+- `package.json`: Define dependências e scripts
+- `src/cli.js`: Jogo completo com inquirer
+- `README.md`: Este arquivo
+- `PUBLISH.md`: Guia de publicação no NPM
+
+## 📝 Desenvolvimento
+
+O projeto está configurado com:
+- ✅ Prettier para formatting automático
+- ✅ ESLint para análise de código
+- ✅ Codespaces pronto para desenvolvimento imediato
+
